@@ -1,10 +1,25 @@
+// Solo con if
+
+
+// const esPositivoONegativo = (numero) => {
+//     if (numero < 0) {
+//        return "negativo"
+//     } 
+//     if (numero > 0) {
+//         return "positivo"
+//     }
+//  }
+
+ // Con if else 
+
 const esPositivoONegativo = (numero) => {
-    if (numero < 0) {
-        return "Negativo"
-    } if (numero > 0) {
-        return "Positivo"
+    if (numero > 0) {
+        return "positivo"
+    } else{
+        return "negativo"
     }
 }
+
 
 esPositivoONegativo(3)
 esPositivoONegativo(-5)
