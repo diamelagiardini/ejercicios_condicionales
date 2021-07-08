@@ -30,7 +30,7 @@ Crear una función puedeAvanzar que tome como argumento un string con el color d
 puedeAvanzar('verde')     // true
 puedeAvanzar('amarillo')  // false
 puedeAvanzar('rojo')      // false
-puedeAvanzar('lila')      // 'Error: color de semáforo inválido'
+
 ```
 
 #### `4.esVocal(letra)`
@@ -86,7 +86,7 @@ esPositivoONegativo(3)  // 'positivo'
 esPositivoONegativo(-5) // 'negativo'
 ```
 #### `10.avanzarSemaforo(colorActual)`
-Crear una función avanzarSemaforo que acepte como argumento un string colorActual y devuelva un string con el siguiente color del semáforo, siguiendo el orden: verde -> amarillo -> rojo -> verde
+Definí una función avanzarSemaforo que reciba como argumento un string colorActual y devuelva un string con el siguiente color del semáforo, siguiendo el orden: verde -> amarillo -> rojo -> verde
 ```
 avanzarSemaforo('verde')     // 'amarillo'
 avanzarSemaforo('amarillo')  // 'rojo'
@@ -118,7 +118,7 @@ Mayor o igual a entre 8 y menor a 10	Muy bueno
 Menor a 0 o mayor a 10	Puntaje inválido
 ```
 obtenerNota(7)    // "Bueno"
-obtenerNota(9.6)  // "Excelente"
+obtenerNota(9.6)  // "Muy bueno"
 obtenerNota(12)   // "Puntaje inválido"
 ```
 
