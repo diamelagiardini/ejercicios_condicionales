@@ -123,7 +123,7 @@ obtenerNota(12)   // "Puntaje inválido"
 ```
 
 #### `13.jugarPiedraPapelTijera(a, b)`
-Crear una función jugarPiedraPapelTijera que tome como argumentos dos strings a y b que representen una jugada (piedra, papel, tijera) y dependiendo el devuelva un string con un mensaje avisando qué jugada ganó (o si hubo empate)
+Definí una función jugarPiedraPapelTijera que reciba como argumentos dos strings a y b que representen una jugada (piedra, papel, tijera) y retorne un string con un mensaje avisando qué jugada ganó (o si hubo empate)
 ```
 jugarPiedraPapelTijera('tijera', 'piedra')  // ¡Ganó piedra!
 jugarPiedraPapelTijera('piedra', 'tijera')  // ¡Ganó piedra!
